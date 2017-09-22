@@ -1,0 +1,17 @@
+{
+  "name": "nightmare-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "mocha -t 15000 test.js",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "http-server": "^0.10.0",
+    "nightmare": "^2.10.0"
+  }
+}
